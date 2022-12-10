@@ -1,21 +1,25 @@
-let num=25;
-function checkprime(num){
+
+let number=11;
+function checkprime(number){
     let count=0
-   for(var x=1;x<=num;x++){
-       if(num%x==0){
+   for(var y=1;y<=number;y++){
+       if(number%y==0){
+
            count++
        }
    }  
    
-    if(count==2){
-       return true
+   if( count==2){
+     return true;
    }else{
-      return false
+     return false;
    }
-   }
+     
    
-  if(checkprime(num)){
-      console.log("True")
-  }else{
-      console.log("False")
-  }
+   }
+
+  checkprime(number)==true?console.log("True"):console.log("False")
+      
+      
+  
+

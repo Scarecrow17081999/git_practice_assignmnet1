@@ -1,8 +1,8 @@
-let num
+let num=25;
 function checkprime(num){
     let count=0
-   for(var x=1;x<num;x++){
-       if(num%x==1){
+   for(var x=1;x<=num;x++){
+       if(num%x==0){
            count++
        }
    }  
@@ -14,7 +14,7 @@ function checkprime(num){
    }
    }
    
-  if(checkprime(a)){
+  if(checkprime(num)){
       console.log("True")
   }else{
       console.log("False")

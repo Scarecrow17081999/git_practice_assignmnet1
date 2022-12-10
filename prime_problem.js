@@ -1,8 +1,10 @@
+
 let number=11;
 function checkprime(number){
     let count=0
    for(var y=1;y<=number;y++){
        if(number%y==0){
+
            count++
        }
    }  
@@ -15,10 +17,9 @@ function checkprime(number){
      
    
    }
-   
+
   checkprime(number)==true?console.log("True"):console.log("False")
       
       
   
-      
-  
+
